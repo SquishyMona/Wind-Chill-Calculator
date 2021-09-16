@@ -6,6 +6,9 @@ T = input()
 print("Please enter the wind speed(mph)")
 W = input()
 
+T = float(T)
+W = float(W)
+
 
 
 # Computing the wind chill
