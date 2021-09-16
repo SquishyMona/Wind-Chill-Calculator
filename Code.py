@@ -1,9 +1,12 @@
 """ This program calculates the wind chill outside """
 
 # Getting and defining the variables
-print("Please enter the temperature (Fahrenheit):")
+print("Please enter the temperature(Fahrenheit):")
 T = input()
-W = 20
+print("Please enter the wind speed(mph)")
+W = input()
+
+
 
 # Computing the wind chill
 wind_chill = (35.74+0.6215*T)+(-35.75+0.4275*T)*(W**.16)
