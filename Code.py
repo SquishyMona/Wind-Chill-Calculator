@@ -14,3 +14,6 @@ wind_chill = (35.74+0.6215*T)+(-35.75+0.4275*T)*(W**.16)
 
 # Displaying the wind chill
 print("The wind chill is "); print(wind_chill)
+
+#Making the program better
+print("Persona 5 Royal lol")
