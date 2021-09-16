@@ -1,4 +1,4 @@
-""" This program calculates the wind chill outside """
+""" This program calculates the wind chill outside lol """
 
 # Getting and defining the variables
 T = input("Please enter the temperature (Fahrenheit): ")
