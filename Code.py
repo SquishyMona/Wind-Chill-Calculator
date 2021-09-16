@@ -1,10 +1,8 @@
 """ This program calculates the wind chill outside """
 
 # Getting and defining the variables
-print("Please enter the temperature(Fahrenheit):")
-T = input()
-print("Please enter the wind speed(mph)")
-W = input()
+T = input("Please enter the temperature (Fahrenheit): ")
+W = input("Please enter the wind speed (mph): ")
 
 T = float(T)
 W = float(W)
