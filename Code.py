@@ -1,9 +1,12 @@
-# This program calculates the wind chill outside
+""" This program calculates the wind chill outside """
 
+# Getting and defining the variables
 print("Please enter the temperature:")
 T = input()
 W = 20
 
+# Computing the wind chill
 wind_chill = (35.74+0.6215*T)+(-35.75+0.4275*T)*(W**.16)
 
+# Displaying the wind chill
 print("The wind chill is "); print(wind_chill)
